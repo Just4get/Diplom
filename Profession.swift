@@ -7,7 +7,6 @@
 //
 
 import Foundation
-
 class Profession {
     let name:String
     var testNames:[TestTypes]

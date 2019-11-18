@@ -12,6 +12,7 @@ class ColorsViewController: UIViewController, Test {
     func launchNextTest() {
         // Если список тестов, которые предстоит решить, пуст то вывод результатов
         if profession!.testNames.isEmpty {
+            
             let VC1 = self.storyboard!.instantiateViewController(withIdentifier: "ResultsTable") as! ResultTableViewController
             VC1.results = results
             let navController = UINavigationController(rootViewController: VC1) // Creating a navigation controller with VC1 at the root of the navigation stack.

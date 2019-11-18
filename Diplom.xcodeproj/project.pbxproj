@@ -92,16 +92,6 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		940C2C42229AFD660001DBDC /* GorbovTest */ = {
-			isa = PBXGroup;
-			children = (
-				941BA684228988220039F01A /* GorbovViewController.swift */,
-				940C2C40229AFD560001DBDC /* GorbovItem.swift */,
-			);
-			name = GorbovTest;
-			path = ..;
-			sourceTree = "<group>";
-		};
 		940D75A422B4D54B004022A2 /* Data */ = {
 			isa = PBXGroup;
 			children = (
@@ -112,26 +102,16 @@
 			path = Data;
 			sourceTree = "<group>";
 		};
-		940D75A722B4F4AD004022A2 /* MainView */ = {
-			isa = PBXGroup;
-			children = (
-				9437FA9D22A8041A00D80A22 /* ChartViewController.swift */,
-				94E5EA6D229DA42400DC6829 /* ChooseProfViewController.swift */,
-				940D75A522B4D577004022A2 /* ChosePFKTableViewController.swift */,
-			);
-			name = MainView;
-			sourceTree = "<group>";
-		};
 		940D75A822B4F4EB004022A2 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				F87360AE2382B86C00BFB6AE /* GorbovTest */,
+				94E0422B229AA0DC009F627F /* MemoryCard */,
 				940C14BC228D662D00D8A0D0 /* ColorsViewController.swift */,
 				94E5EA6B229D48FD00DC6829 /* IlyinTestViewController.swift */,
 				940F021422B0CB8600CF1575 /* RavenTestCollectionViewController.swift */,
 				941712932277A41E001D7FCC /* ShulteViewController.swift */,
 				9449021C229B1D9B00558862 /* YarockiyViewController.swift */,
-				940C2C42229AFD660001DBDC /* GorbovTest */,
-				94E0422B229AA0DC009F627F /* MemoryCard */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -163,9 +143,9 @@
 			isa = PBXGroup;
 			children = (
 				940D75A422B4D54B004022A2 /* Data */,
-				940D75A722B4F4AD004022A2 /* MainView */,
+				F87360AC2382B6CF00BFB6AE /* MainVIew */,
 				940D75A822B4F4EB004022A2 /* Tests */,
-				94E0422C229AB643009F627F /* ResultView */,
+				F87360AD2382B70400BFB6AE /* ResultView */,
 				941712882277A153001D7FCC /* Assets.xcassets */,
 				941712852277A151001D7FCC /* Main.storyboard */,
 				9417128D2277A153001D7FCC /* Info.plist */,
@@ -184,22 +164,41 @@
 			path = MemoryCard;
 			sourceTree = "<group>";
 		};
-		94E0422C229AB643009F627F /* ResultView */ = {
-			isa = PBXGroup;
-			children = (
-				94131782228221E00006A713 /* ResultItem.swift */,
-				940A2A77229F02F900EFF5D5 /* ResultTableViewController.swift */,
-				94131780228221700006A713 /* ResultViewController.swift */,
-			);
-			name = ResultView;
-			sourceTree = "<group>";
-		};
 		BD7198B1092D4BA489EE8E6B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				0D1F1DEFF4E888486947F5EA /* Pods_Diplom.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F87360AC2382B6CF00BFB6AE /* MainVIew */ = {
+			isa = PBXGroup;
+			children = (
+				9437FA9D22A8041A00D80A22 /* ChartViewController.swift */,
+				94E5EA6D229DA42400DC6829 /* ChooseProfViewController.swift */,
+				940D75A522B4D577004022A2 /* ChosePFKTableViewController.swift */,
+			);
+			path = MainVIew;
+			sourceTree = "<group>";
+		};
+		F87360AD2382B70400BFB6AE /* ResultView */ = {
+			isa = PBXGroup;
+			children = (
+				94131782228221E00006A713 /* ResultItem.swift */,
+				940A2A77229F02F900EFF5D5 /* ResultTableViewController.swift */,
+				94131780228221700006A713 /* ResultViewController.swift */,
+			);
+			path = ResultView;
+			sourceTree = "<group>";
+		};
+		F87360AE2382B86C00BFB6AE /* GorbovTest */ = {
+			isa = PBXGroup;
+			children = (
+				941BA684228988220039F01A /* GorbovViewController.swift */,
+				940C2C40229AFD560001DBDC /* GorbovItem.swift */,
+			);
+			path = GorbovTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
